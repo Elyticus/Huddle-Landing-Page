@@ -76,7 +76,7 @@ header {
   display: flex;
 }
 
-@media (max-width: 26.75em) {
+@media (max-width: 23.4375em) {
   header {
     background-image: url(images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ header {
   }
 
   h1 {
-    margin-inline: 20px;
+    margin-inline: 10px;
   }
 
   .logo__flex {
@@ -99,7 +99,7 @@ header {
   }
 
   .hero__paragraph {
-    margin-inline: 45px;
+    margin-inline: 35px;
   }
 
   .started__btn {
