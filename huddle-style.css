@@ -1,0 +1,138 @@
+:root {
+  /* Primary */
+  --Pink: hsl(322, 100%, 66%);
+
+  /* Neutral */
+  --Very-Pale-Cyan: hsl(193, 100%, 96%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Grayish-Blue: hsl(208, 11%, 55%);
+
+  /* Google Font (Poppins 600) */
+  --Google-Poppins: "Poppins", sans-serif;
+
+  /* Google Font (Open Sans 400, 700) */
+  --Google-Open-Sans: "Open Sans", sans-serif;
+}
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍 */
+
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+
+body {
+  font-family: var(--Google-Open-Sans);
+  font-weight: 400;
+  width: 100%;
+  height: 100vh;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+picture {
+  position: absolute;
+  z-index: -1;
+}
+
+header {
+  /* margin-top: -5px; */
+  max-width: 100%;
+  height: 850px;
+}
+
+.logo__icon {
+  width: 170px;
+}
+
+.header__flex {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.logo__flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.hero__img {
+  position: absolute;
+  z-index: -1;
+}
+
+.img__mockup {
+  height: 500px;
+  display: flex;
+}
+
+@media (max-width: 26.75em) {
+  header {
+    background-image: url(images/bg-hero-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 410px;
+    background-color: var(--Very-Pale-Cyan);
+  }
+
+  body {
+    text-align: center;
+  }
+
+  h1 {
+    margin-inline: 40px;
+  }
+
+  .logo__flex {
+    margin: 50px 20px 50px 20px;
+  }
+
+  .hero__paragraph {
+    margin-inline: 62px;
+  }
+
+  .started__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 50px;
+    width: 250px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    margin: 20px 50px 70px 50px;
+    background-color: var(--Pink);
+    color: var(--Very-Pale-Cyan);
+    font-family: var(--Google-Poppins);
+  }
+
+  .started__btn:hover {
+    background-color: hsl(322, 78%, 79%);
+  }
+
+  .free__btn {
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    font-family: var(--Google-Poppins);
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px hsla(192, 100%, 9%, 0.192);
+  }
+
+  .free__btn:hover {
+    color: hsl(208, 11%, 55%);
+  }
+
+  .img__mockup {
+    height: 270px;
+    margin-inline: 40px;
+  }
+}
