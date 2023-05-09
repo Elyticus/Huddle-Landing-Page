@@ -24,6 +24,11 @@
   color: hsl(228, 45%, 44%);
 } */
 
+::selection {
+  color: hsl(322, 85%, 42%);
+  background: #dae90ea4;
+}
+
 body {
   font-family: var(--Google-Open-Sans);
   font-weight: 400;
