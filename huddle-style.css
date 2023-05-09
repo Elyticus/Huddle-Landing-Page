@@ -79,6 +79,20 @@ header {
   justify-content: space-around;
 }
 
+.header__js {
+  visibility: hidden;
+}
+
+.thank__message {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  font-size: 150px;
+  font-weight: bold;
+  display: none;
+}
+
 .header__info {
   margin-top: 3rem;
   max-width: 28.75rem;
@@ -271,7 +285,7 @@ footer p {
 .copy__rights {
   display: flex;
   justify-content: end;
-  margin-right: 5%;
+  margin-right: 6%;
   font-size: 12px;
 }
 
@@ -505,6 +519,6 @@ footer p {
 
   .copy__rights {
     margin-top: 25px;
-    margin-right: 20%;
+    margin-right: 18%;
   }
 }
