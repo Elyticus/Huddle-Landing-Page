@@ -131,7 +131,7 @@ header {
 
 .free__btn {
   width: 8.5rem;
-  height: 2.5rem;
+  height: 3rem;
   cursor: pointer;
   border: none;
   border-radius: 3.125rem;
@@ -347,7 +347,7 @@ footer p {
   margin-top: 5px;
 }
 
-@media (max-width: 26.75em) {
+@media (max-width: 28.75em) {
   header {
     background-image: url(images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
@@ -468,6 +468,10 @@ footer p {
 
   section h2 {
     margin-inline: 10px;
+  }
+
+  .free__btn {
+    height: 2.5rem;
   }
 
   .logo__description {
