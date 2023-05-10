@@ -84,13 +84,87 @@ header {
 }
 
 .thank__message {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  align-items: center;
-  font-size: 150px;
+  position: absolute;
+  font-size: 10px;
   font-weight: bold;
   display: none;
+  margin-inline: 350px;
+  margin-top: 90px;
+  font-family: var(--Google-Poppins);
+}
+
+.thankyou__message {
+  color: red;
+  font-size: 1rem;
+  font-family: var(--Google-Open-Sans);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.display__error {
+  font-size: 30px;
+  color: #c152e7;
+}
+
+.input__element.redClass {
+  color: red;
+}
+
+.input__element {
+  display: flex;
+  align-self: center;
+  width: 350px;
+  height: 50px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+  font-family: var(--Google-Open-Sans);
+  font-weight: 400;
+  color: #c152e7;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.submit__btn {
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 30px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background-color: var(--Pink);
+  color: var(--Very-Pale-Cyan);
+  font-weight: bold;
+  padding: 5px;
+}
+
+.submit__btn:hover {
+  background-color: hsl(322, 78%, 79%);
+  transition: 0.3s ease;
+}
+
+.input__appoiment {
+  height: 34.375rem;
+  display: none;
+  background-color: white;
+  border-radius: 1.25rem;
+  box-shadow: 0px 0px 1.875rem 0px hsla(209, 11%, 55%, 0.171);
+  margin-top: 7.5rem;
+
+  color: var(--Very-Dark-Cyan);
+}
+
+.appoiment {
+  display: flex;
+  justify-content: center;
+}
+
+.appoiment__btn {
+  height: 50px;
 }
 
 .header__info {
@@ -126,7 +200,7 @@ header {
 
 .started__btn:hover {
   background-color: hsl(322, 78%, 79%);
-  transition: 450ms ease-in-out;
+  /* transition: 450ms ease-in-out; */
 }
 
 .free__btn {
@@ -170,6 +244,24 @@ header {
 
 .card3 {
   margin-top: 2.5rem;
+}
+
+.card1:hover {
+  box-shadow: 0px 0px 2.875rem 10px hsla(209, 11%, 55%, 0.397);
+  transition: 0.5s ease-in-out;
+}
+
+.card2:hover {
+  box-shadow: 0px 0px 2.875rem 10px hsla(209, 11%, 55%, 0.397);
+  transition: 0.5s ease-in-out;
+}
+.card3:hover {
+  box-shadow: 0px 0px 2.875rem 10px hsla(209, 11%, 55%, 0.397);
+  transition: 0.5s ease-in-out;
+}
+
+.svg__hov:hover {
+  fill: #da4567;
 }
 
 .testemonial1 {
@@ -365,6 +457,11 @@ footer p {
     padding-left: 10px;
   }
 
+  .thank__message {
+    padding-top: 100px;
+    margin-left: 30px;
+  }
+
   .started__btn {
     display: flex;
     justify-content: center;
@@ -516,5 +613,17 @@ footer p {
   .copy__rights {
     margin-top: 25px;
     margin-right: 18%;
+  }
+
+  .display__error {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 90px;
+    font-size: 20px;
+  }
+
+  .thankyou__message {
+    font-size: 12px;
   }
 }
