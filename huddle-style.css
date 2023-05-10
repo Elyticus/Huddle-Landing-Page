@@ -351,22 +351,12 @@ footer p {
   header {
     background-image: url(images/bg-hero-mobile.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: var(--Very-Pale-Cyan);
     padding-bottom: 0;
   }
 
-  picture {
-    max-width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-  }
-
   body {
-    max-width: 100%;
     text-align: center;
   }
 
@@ -394,6 +384,7 @@ footer p {
   .header__image {
     height: 31.25rem;
     display: flex;
+    justify-content: center;
   }
 
   .logo__flex {
