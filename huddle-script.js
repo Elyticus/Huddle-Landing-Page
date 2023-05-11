@@ -5,6 +5,7 @@ const thankYouMessage = document.querySelector(".thank__message");
 freeButtonELement.addEventListener("click", () => {
   headerFlex.classList.add("header__js");
   thankYouMessage.style.display = "block";
+  freeButtonELement.classList.remove("started__btn");
 });
 
 function emailValidation() {
@@ -42,3 +43,51 @@ submitButton.addEventListener("click", emailValidation);
 
 // const appoimentButton = document.querySelector(".footer__btn");
 // appoimentButton.addEventListener("click", appoimentValidation);
+
+// const fahrenheitToCelsius = () => {
+//   let fahrenheit = 129;
+//   let celsius = Math.floor(((fahrenheit - 32) * 5) / 9);
+
+//   return celsius;
+// };
+
+// console.log(fahrenheitToCelsius());
+
+// const reverseString = (string) => {
+//   return string.split("").reverse().join(" ");
+// };
+
+// console.log(reverseString("string"));
+
+// const calculateRectangleArea = (width, height) => {
+//   return width * height;
+// };
+
+// console.log(calculateRectangleArea(20, 70));
+
+// const isEven = (n) => {
+//   return n % 2 === 0;
+// };
+
+// console.log(isEven(7));
+
+// const sumOfDigits = (n) => {
+//   if (n < 0) n = -n;
+//   let result = 0;
+
+//   while (n > 0) {
+//     result += n % 10;
+//     n = Math.floor(n / 10);
+//   }
+//   return result;
+// };
+
+// console.log(sumOfDigits(23));
+
+// function findLongestWord(str) {
+//   var longestWord = str.split(" ").sort(function (a, b) {
+//     return b.length - a.length;
+//   });
+//   return longestWord[0].length;
+// }
+// console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));

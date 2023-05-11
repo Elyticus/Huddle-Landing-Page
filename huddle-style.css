@@ -29,6 +29,10 @@
   background: #dae90ea4;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--Google-Open-Sans);
   font-weight: 400;
@@ -199,8 +203,10 @@ input:focus::placeholder {
 }
 
 .started__btn:hover {
-  background-color: hsl(322, 78%, 79%);
-  /* transition: 450ms ease-in-out; */
+  color: black;
+  background-color: #52bef05b;
+  box-shadow: 0 0 20px #2163f0, 0 0 10px #96a9ff;
+  transition: 0.2s ease-in;
 }
 
 .free__btn {
