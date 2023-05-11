@@ -29,9 +29,9 @@
   background: #dae90ea4;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
   font-family: var(--Google-Open-Sans);
