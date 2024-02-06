@@ -14,24 +14,10 @@
   --Google-Open-Sans: "Open Sans", sans-serif;
 }
 
-/* Feel free to remove these styles or customise in your own stylesheet 👍 */
-
-/* .attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-} */
-
 ::selection {
   color: hsl(322, 85%, 42%);
   background: #dae90ea4;
 }
-
-/* * {
-  box-sizing: border-box;
-} */
 
 body {
   font-family: var(--Google-Open-Sans);
